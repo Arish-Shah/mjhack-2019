@@ -1,0 +1,147 @@
+#headerContainer {
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.registerButton {
+	margin-bottom: -100px;
+}
+
+.transparentBlackContainer {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.blackStroke {
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.size25 {
+	font-size: 25px;
+}
+
+.paddingTop20 {
+	padding-top: 80px;
+}
+
+.lead {
+	color: #4c4a4a;
+}
+
+.timer-container{
+  width: 100%;
+  background: transparent;
+}
+#timer{
+  font-size: 20px;
+  font-family: Arial, sans-serif; 
+  color: #ddd;
+}
+#timer span{
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+}
+
+.notification {
+  margin-bottom: 50px;
+  padding: 10px;
+  padding-top: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.logocontainer{
+  text-align: center;
+  margin-left: 35px;
+}
+#mjlogo{
+  height: 120px;
+  margin-right: 50px; 
+  margin-left: 60px;
+}
+#csilogo{
+  height: 85px;
+  width: 130px;
+  margin-top: 20px;
+}
+#ecelllogo{
+  width: 180px;
+  margin-top: 10px;
+}
+
+.ihostbigspace{
+  margin-top: 170px;
+}
+.igoodz{
+  width: 300px;
+}
+.ixit{
+  width: 300px;
+  margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  #timer{
+    font-size: 12px;
+  }
+  #timer span{
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+  } 
+  .paddingTop20 {
+    margin-top: -40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .logocontainer{
+    margin: 0;
+    text-align: center;
+  }
+  .ihostbigspace{
+    margin-top: 45px;
+  }
+  .igoodz, .ixit{
+    margin-top: 100px;
+  }
+
+  .intro-heading{
+    font-size: 45px !important;
+  }
+
+
+  #mjlogo{
+    width: 70px;
+    height: auto;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 15px;
+  }
+  #csilogo{
+    width: 85px;
+    margin-top: 17px;
+    height: auto;
+    display: inline-block;
+  }
+  #ecelllogo{
+    width: 105px;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  #mjlogo{
+    width: 55px;
+  }
+  #csilogo{
+    width: 65px;
+  }
+  #ecelllogo{
+    width: 80px;
+  }
+}
